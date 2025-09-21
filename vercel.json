@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "next.config.js", "use": "@vercel/next" }
+  ],
+  "env": {
+    "NEXTAUTH_URL": "https://your-site.vercel.app",
+    "NEXTAUTH_SECRET": "@nextauth-secret",
+    "TWITTER_CLIENT_ID": "@twitter-client-id",
+    "TWITTER_CLIENT_SECRET": "@twitter-client-secret"
+  }
+}
